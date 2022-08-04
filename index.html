@@ -4,35 +4,91 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boxicons-2.1.2/css/boxicons.min.css">
     <title>HTML Intro</title>
   </head>
   <body>
     <div id="exercise1">
-      <!-- Complete Exercise 1 HERE -->
+      <!-- Complete Exercise 1 HERE Exercise 1
+Steps are to be completed under the div with id="exercise1"
+
+Create a heading 1 element that contains your name between opening and closing tags
+Create a paragraph element that contains a bio about yourself -->
+        <h1>NANCY LEE</h1>
+        <p>Hello! I am a creative and responsible professional with excellent troubleshooting and communication skills. 
+          I am shifting from financial services to focusing on my new career as a Software Engineer! I have experience 
+          in improving and updating software performance, as well as developing new software functionalities.</p>
+          &nbsp;
+          <p>With a demonstrated history of working in the financial investment services industry with over 13 years of 
+          leadership experience, I bring strong management, collaboration, and problem solving skills to tech projects.</p>&nbsp; 
+          
+          <p></p>From NYC with a BBA Degree in Real Estate Finance & Investments & Business Law from City University of New York-Baruch 
+          College - Zicklin School of Business. I enjoy having fun and being positive!</p>&nbsp;
     </div>
 
     <div id="exercise2">
-      <!-- Complete Exercise 2 HERE -->
+      <!-- Complete Exercise 2 HERE Exercise 2
+Steps are to be completed under the div with id="exercise2"
+
+Create an unordered list element
+Create three list item elements nested inside of the unordered list that your just created
+Create an anchor element inside of each list item that you just created in your unordered list
+Each anchor element should link to the following:
+The first anchor element should link to your LinkedIn profile
+The second anchor element should link to the TrueCoders homepage
+The third anchor element should link to your most visited website -->
+        <ul class="links">
+          <li><a href="https://www.linkedin.com/in/nancylee7/" target="_blank">☻ LinkedIn</a></li>
+          <li><a href="https://portal.truecoders.io/course/30/lecture/69" target="_blank">☻ TrueCoders</a></li>
+          <li><a href="https://9anime.id/home" target="_blank">☻ 9anime</a></li>
+        </ul>
     </div>
 
     <div id="exercise3">
-      <!-- Complete Exercise 3 HERE -->
+      <!-- Complete Exercise 3 HERE Exercise 3
+Steps are to be completed under the div with id="exercise3"
+
+Create an image element
+Add an src attribute with a relative path value that points to the ./images/example.png file
+Add an alt attribute with a text description value of the image -->
+        <img src="images/kbbq.jpg" alt="Korean bbq round table">
     </div>
 
     <div id="exercise4">
-      <!-- Complete Exercise 4 HERE -->
+      <!-- Complete Exercise 4 HERE Exercise 4
+Steps are to be completed under the div with id="exercise4"
+
+Edit the paragraph element's text content so that:
+the word "Bredon" is enclosed in a span element
+any word "play" is enclosed in an underline element
+any word "beautiful" is enclosed in an emphasis element
+any word "point" is enclosed in an strong element -->
       <p>
-        I looked down at the board. "The point isn't to win?" I asked. "The
-        point," Bredon said grandly, "is to play a beautiful game." He lifted
-        his hands and shrugged, his face breaking into a beautific smile. "Why
+        I looked down at the board. "The point isn't to win?" I asked. "The <strong>point</strong>
+        ," <span>Bredon</span> said grandly, "is to <u>play</u> a beautiful game." He lifted
+        his hands and shrugged, his face breaking into a <em>beautiful</em> smile. "Why
         would I want to win anything other than a beautiful game?"
-      </p>
+      </p>&nbsp;
     </div>
 
     <div id="exercise5">
-      <!-- Complete Exercise 5 HERE -->
+      <!-- Complete Exercise 5 HERE Steps are to be completed under the div with id="exercise5"
+
+Edit the blog post so that more semantically meaningful elements are used instead of generic division containers.
+You will need to use:
+one main element
+three section elements
+one article element
+one header element
+two nav element
+two unordered list element
+five list item elements
+five anchor elements
+one footer element
+To be completed, you should only have one division element and zero span elements (not including the div with id="exercise5") -->
       <div>
-        <div>
+        <!-- <div>
           <div>
             <span>
               <a href="/">Home</a>
@@ -44,50 +100,84 @@
               <a href="/projects">Projects</a>
             </span>
           </div>
-        </div>
+        </div> -->
+        <nav class="navbar">
+          <ul class="menu">  
+            <li><a href="Home">Home</a></li>
+            <li><a href="About">About</a></li>
+            <li><a href="Videos">Videos</Video></a></li>
+          </ul>
+        </nav>
       </div>
 
-      <div>
-        <div>
-          <h1>Main Heading</h1>
-          <p>Author.. Bio...</p>
-        </div>
-        <div>
-          <div>
-            <h2>Sub Heading</h2>
-            <div>
-              <p>Lorem ipsum...</p>
-            </div>
-          </div>
-          <div>
-            <h2>Sub Heading</h2>
-            <p>Lorem ipsum...</p>
-            <div>
-              <h3>Another Sub Heading</h3>
-              <p>Lorem ipsum...</p>
-            </div>
-          </div>
-        </div>
-	</div>
+      <main>
+        <section>
+          <h1>ABOUT SEOUL EATS</h1>
+          <p>Hello! This is one of the top Korean food blogs today, no doubt about it. Giving us a mix of Korean 
+            dishes, international cuisine, travel posts, and fun things that you can do in Seoul, this is a 
+            brilliant blog to check out. For those planning to go on a holiday in this wonderful city, visiting 
+            this quick blog I created is a must.<strong> Cheers and Happy Dining!</strong></p> &nbsp;   
+        </section>
 
-      <div>
+        <section>
+            <h2>Korean Food Tours</h2>
+            <div>
+              <p>I offer customized food tours by request. My experiences are progressive meals that are focused on 
+                traditional markets, artisan products and local chefs. As I get to know my guests, I will change up 
+                the itinerary on the fly to fit certain requests, dietary restrictions and other factors. I offer 
+                lunch or dinner tours and exploratory tours for hospitality and food professionals that are looking 
+                for a deep dive into Korean cuisine.</p>&nbsp;
+            </div>
+        </section>
+
+        <section>
+            <h2>Korean-style 9Anime and Chill</h2>
+            <p>Shin Ramen and Kimchi is how we do it in Korea. I have learned how to make Ramen with nearly no sound 
+              like a <em>ninja</em>. I like to add an egg in it just as the ramen starts to bubble. The kimchi is a perfect 
+              complement. Hey it might not be the healthiest but it is my comfort food that goes well with a side of 
+              Overlord.</p>&nbsp;
+        </section>
+
+        <section>
+              <h3>The Importance of Color</h3>
+              <p>I love how colorful Korea is. If you look out at any busy street, there are myriads of shades. 
+                This is a recent picture I took at Mercentopolis at Hapjeong Station at nighttime. The umbrellas 
+                just set the right mood for an evening with friends or family. </p>&nbsp;
+        </section>
+        
+        <section>
+          <ul class="links">
+            <li><a href="https://www.ivisitkorea.com/top-korean-cooking-channels-on-youtube/" target="_blank">☻ Visit Korea</a></li>
+            <li><a href="https://www.cookingchanneltv.com/topics/korean" target="_blank">☻ Cooking Channel</a></li>
+            <li><a href="https://tasty.co/" target="_blank">☻ Tasty</a></li>
+            <li><a href="https://www.youtube.com/channel/UC8gFadPgK2r1ndqLI04Xvvw" target="_blank">☻ Maangchi's YouTube</a></li>
+            <li><a href="https://www.maangchi.com/" target="_blank">☻ Maangchi's Cooking Website</a></li>&nbsp;
+          </ul>
+        </section>
+
+      
         <div>
           <div>
             <span>
               <a href="/privacy">Privacy Policy</a>
             </span>
             <span>
-              <a href="/terms">Terms and Conditions</a>
+              <a href="/terms">Terms and Conditions</a>&nbsp;
             </span>
           </div>
         </div>
 
         <div>
-          <p>Powered by 🕯️</p>
-          <p>&copy; TrueCoders 2021-24</p>
+          <section>
+            <footer>
+              <p>&copy; 2022. Designed by NancyLee. You are enough! <i class='bx bxs-like bx-tada'></i><span i class="bx bx-happy-beaming bx-sm"></p>
+            </footer>
+          </section>
         </div>
-      </div>
+      </main>
     </div>
-	
+    
+    <script type="module" src="https://unpkg.com/boxicons@2.1.2/dist/boxicons/boxicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
   </body>
 </html>
